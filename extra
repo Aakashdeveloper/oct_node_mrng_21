@@ -1,0 +1,68 @@
+https://code.visualstudio.com/download
+install nodeJs > https://nodejs.org/en/
+create github > https://github.com/
+codeLink > https://github.com/Aakashdeveloper/oct_node_mrng_21
+gitbash > https://git-scm.com/downloads
+
+Extensions
+> vscode-icons
+> eslint
+> git lens
+> git history
+> tabnine
+
+Basic JavaScript
+NPM
+Basic NodeJS(in built)(Os,file,http)
+NodeJS(full Stack App) (Node-EJS-Mongo-Express)
+Third Party Api (Weather Api)
+Redis  > 6379
+Node-Es6(.babel)
+ImageUpload
+MongoDb Basic >27017  (local/cloud)
+Api with NodeJS(Rest)>1
+Swagger
+DashBoard(Crud)
+Testing
+Github
+--Deployment of app---
+Docker
+Heroku
+Nginx
+Pm2
+Login/Logout(JWT)
+Oauth(with github)
+Oauth(with google)
+NodeJs with postgres
+GraphQl API
+Paytm-Payment
+Email With Node(sendgird)(https://app.sendgrid.com/)
+Chatapp
+FIREBASE
+--------NOT---------
+React/Angular
+Html/css/jquery
+
+>>>>>>>>>>
+NodeJs
+
+Single Thread, Async ,Non blocking i/o 
+
+convert code = > machine code
+engine v8
+open source
+
+npm > node package manager
+
+JSON > JavaScript Object Notation
+[
+    {
+        "id":1,
+        "name":"John"
+    },
+    {
+        "id":2,
+        "name":"Amit",
+        "city":"Amsterdam"
+    }
+]
