@@ -66,3 +66,26 @@ JSON > JavaScript Object Notation
         "city":"Amsterdam"
     }
 ]
+
+///////////Package.json/////////
+> Entry Point to application
+> script (start stop build)
+> metadata (version, name, author)
+> packages
+
+/////////////
+Step to generate a package.json
+///////
+** NodeJs must be install
+> open cmd/terminal and go inside folder
+> npm init
+> answer all question
+> type yes
+
+
+/////////////
+Step to install package
+///////
+> ** NodeJs must be install
+> go inside the folder
+> npm i packagename
