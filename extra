@@ -88,4 +88,36 @@ Step to install package
 ///////
 > ** NodeJs must be install
 > go inside the folder
-> npm i packagename
+> npm i packagename / npm install packagename / npm i packagename --save
+
+/////////////
+Step to uninstall package
+///////
+> go inside the folder
+> npm uninstall packagename
+
+
+/////////////
+Step to install dev dependency
+///////
+> go inside the folder
+> npm i packagename --save-dev
+
+
+/////////////
+Step to install global dependency
+///////
+# install in laptop (c drive)
+# its not specific to folder
+# use for start/build/test
+# very few dependency go global
+# we need admin access to install global dependency
+
+#window
+> open cmd as administrator
+> npm i -g packagename
+> close cmd
+
+#mac/linux
+> open terminal
+> sudo npm i -g packagename
