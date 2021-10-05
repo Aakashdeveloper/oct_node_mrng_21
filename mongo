@@ -1,0 +1,10 @@
+> https://www.mongodb.com/try/download/community
+> install MongoDb
+
+> in c drive make folder by name of 'data'
+> inside 'data' folder make folder by name of 'db'
+
+C:\data\db
+
+> https://www.mongodb.com/cloud/atlas
+> create account
