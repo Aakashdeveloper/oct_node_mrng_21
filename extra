@@ -121,3 +121,13 @@ Step to install global dependency
 #mac/linux
 > open terminal
 > sudo npm i -g packagename
+
+
+///es5
+"Server is running on port "+port
+
+//Es6
+`Server is running on port ${port}`
+
+/// For Continous Development
+npm i -g nodemon
