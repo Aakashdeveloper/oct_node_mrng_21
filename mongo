@@ -1,3 +1,29 @@
+SQL noSql
+
+RollNo | English | Hindi |  Computer
+ 1     | 80      |       |
+ 2     |         | 80    |
+ 3     |         | 89    |  90
+
+
+ mongodb
+ [
+     {
+         rollNo:1,
+         english:80
+     },
+     {
+         rollNo:2,
+         hindi:80
+     },
+     {
+         rollNo:3,
+         hindi:80
+         computer:89
+     }
+ ]
+
+
 > https://www.mongodb.com/try/download/community
 > install MongoDb
 
@@ -8,3 +34,24 @@ C:\data\db
 
 > https://www.mongodb.com/cloud/atlas
 > create account
+
+////////
+How to start mongodb
+////////
+> open the cmd
+> go inside c:\programFile\mongodb\server\4.5\bin
+(go inside the bin folder)
+> monogd (start the mongodb server on port 27017)
+** Do not close cms when using db
+
+>> open second cmd
+>> go inside c:\programFile\mongodb\server\4.5\bin
+(go inside the bin folder)
+>> mongo (this start the mongo console to use mongodb)
+
+
+>>>>>Step to see all DBs<<<<<<
+> show dbs
+
+>>>>>Step to see create DBs<<<<<<
+> use dbname

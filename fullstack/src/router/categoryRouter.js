@@ -1,6 +1,5 @@
 var express = require('express');
 var categoryRouter = express.Router();
-
 var category = [
     {
         "id":1,
@@ -24,14 +23,18 @@ var category = [
     }
 ]
 
-categoryRouter.route('/')
-    .get((req,res) => {
-        res.send(category)
-    })
+function router(menu){
+    categoryRouter.route('/')
+        .get((req,res) => {
+            res.render('category',{title:'Category Page',menu:menu, category:category})
+        })
 
-categoryRouter.route('/details')
-    .get((req,res) => {
-        res.send('category details')
-    })
+    categoryRouter.route('/details')
+        .get((req,res) => {
+            res.send('category details')
+        })
+    
+    return categoryRouter
+}
 
-module.exports = categoryRouter
+module.exports = router

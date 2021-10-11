@@ -131,3 +131,11 @@ Step to install global dependency
 
 /// For Continous Development
 npm i -g nodemon
+
+
+
+function add(a,b){
+    return a+b
+}
+
+add(1,2)
