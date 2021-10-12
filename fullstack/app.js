@@ -8,8 +8,7 @@ var fs = require('fs');
 var menu = [
     {link:'/', name:'Home'},
     {link:'/category', name:'Category'},
-    {link:'/products', name:'Products'},
-    {link:'/', name:'Test'}
+    {link:'/products', name:'Products'}
 ]
 var categoryRouter = require('./src/router/categoryRouter')(menu);
 var productRouter = require('./src/router/productRouter')(menu);

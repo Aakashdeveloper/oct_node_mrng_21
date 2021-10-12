@@ -23,6 +23,14 @@ RollNo | English | Hindi |  Computer
      }
  ]
 
+Sql           NoSql
+database      database
+table         collection
+row           documents
+select        find
+insert        insert
+update        update
+delete        remove
 
 > https://www.mongodb.com/try/download/community
 > install MongoDb
@@ -53,5 +61,28 @@ How to start mongodb
 >>>>>Step to see all DBs<<<<<<
 > show dbs
 
->>>>>Step to see create DBs<<<<<<
+>>>>>Step to create DBs<<<<<<
 > use dbname
+
+>>>>>Step to create collection<<<<<<
+db.collectionname.insert({name:'John;})
+
+db.user.insert({name:'John'})
+
+>>>>>Step to go inside DBs<<<<<<
+> use dbname
+
+>>>>>Step to go see collection<<<<<<
+> show collection
+
+>>>>>Step to see data<<<<<<
+> db.collection.find()
+
+db.user.insert({_id:1,name:'Ankit'})
+
+db.products.count()
+
+
+db.products.find({category__id:2})
+
+db.products.find({"category__id":1,"Size":"XX"}).pretty()
