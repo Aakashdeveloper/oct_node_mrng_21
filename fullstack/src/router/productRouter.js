@@ -24,9 +24,29 @@ function router(menu){
        
     })
 
-    productRouter.route('/details')
+    productRouter.route('/details/:id')
     .get((req,res) => {
-        res.send('products details')
+        var id = Number(req.params.id)
+        var query;
+        if(req.query.color){
+            query={"category__id":id,"Color":req.query.color}
+        }else{
+            query={"category__id":id}
+        }
+        mongodb.connect(url, function(err, dc){
+            if(err){
+                res.status(501).send("Error While Connecting")
+            }else{
+                var dbobj = dc.db('octmrng');
+                dbobj.collection('products').find(query).toArray(function(err,data){
+                    if(err){
+                        res.status(501).send("Error While Fetching")
+                    }else{
+                        res.render('productDetails',{title:'Products By Category',menu:menu,products:data})
+                    }
+                })
+            }
+        })
     })
 
     return productRouter

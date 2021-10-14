@@ -139,3 +139,14 @@ function add(a,b){
 }
 
 add(1,2)
+
+/////////////
+params 
+>>> /  
+>> req.params.paramname
+>> We need to declare and compulsory parameters
+
+query  
+>>> ? 
+>> req.params.queryname 
+>> do need to declare
