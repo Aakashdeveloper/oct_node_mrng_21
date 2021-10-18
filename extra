@@ -16,6 +16,7 @@ NPM
 Basic NodeJS(in built)(Os,file,http)
 NodeJS(full Stack App) (Node-EJS-Mongo-Express)
 Third Party Api (Weather Api)
+//////////////////////
 Redis  > 6379
 Node-Es6(.babel)
 ImageUpload
@@ -150,3 +151,19 @@ query
 >>> ? 
 >> req.params.queryname 
 >> do need to declare
+
+/////////////
+var a = 10;
+var b = "my age is "+a
+"my age is 10"
+
+//Es6
+var a = 10;
+var b = `my age is ${a}`
+"my age is 10"
+
+//////
+Redis
+> Caching memory
+
+https://github.com/Aakashdeveloper/public-apis
