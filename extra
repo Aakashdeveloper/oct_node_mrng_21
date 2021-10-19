@@ -167,3 +167,12 @@ Redis
 > Caching memory
 
 https://github.com/Aakashdeveloper/public-apis
+
+/////redis
+6397
+
+> KEYS *
+> set keyname value
+> get keyname
+> del keyname
+> FLUSHAll
