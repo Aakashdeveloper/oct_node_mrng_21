@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"node server.js",
-    "dev":"nodemon server.js"
+    "start": "node start.js",
+    "dev": "nodemon start.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/register": "^7.15.3",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "request": "^2.88.2"

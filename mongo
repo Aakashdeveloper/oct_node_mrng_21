@@ -68,6 +68,10 @@ How to start mongodb
 db.collectionname.insert({name:'John;})
 
 db.user.insert({name:'John'})
+db.user.insert([
+                {name:'John'},
+                {name:'Ankit'},
+                ])
 
 >>>>>Step to go inside DBs<<<<<<
 > use dbname
@@ -86,3 +90,30 @@ db.products.count()
 db.products.find({category__id:2})
 
 db.products.find({"category__id":1,"Size":"XX"}).pretty()
+
+
+C > Create > Insert
+R > Read   > Find
+U > Update > update
+D > Delete > Remove
+
+// only name of product where category is 2 (projection)
+db.products.find({category__id:2},{product_name:1,_id:0})
+db.products.find({condition},{projection})
+
+db.products.find({category__id:2},{product_name:1,Price:1,_id:0})
+
+db.products.find({category__id:2},{product_name:1,Price:1,_id:0}).sort({Price:-1})
+
+db.products.find({category__id:2},{product_name:1,Price:1,_id:0}).sort({Price:-1}).limit(2)
+
+db.products.find({category__id:2},{product_name:1,Price:1,_id:0}).skip(2).sort({Price:-1}).limit(2)
+
+db.restaurent.find({'type.mealtype':'4'},{name:1,type:1}).pretty()
+
+db.restaurent.find({'Cuisine.cuisine':{$in:['1','5']}},{name:1}).pretty()
+
+
+db.restaurent.find({cost:{$gt:600}},{name:1,cost:1}).pretty()
+
+db.restaurent.find({$and:[{cost:{$gt:300,$lt:500}}]},{name:1,cost:1}).pretty()
