@@ -19,8 +19,8 @@ Third Party Api (Weather Api)
 Redis  > 6379
 ImageUpload
 Node-Es6(.babel)
-//////////////////////
 MongoDb Basic >27017  (local/cloud)
+//////////////////////
 Api with NodeJS(Rest)>1
 Swagger
 DashBoard(Crud)
@@ -178,3 +178,6 @@ https://github.com/Aakashdeveloper/public-apis
 > FLUSHAll
 
 npm i @babel/core @babel/register @babel/preset-env
+
+npm i body-parser express mongodb morgan ejs dotenv cors swagger-ui-express
+npm i chai chai-http mocha

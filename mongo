@@ -117,3 +117,39 @@ db.restaurent.find({'Cuisine.cuisine':{$in:['1','5']}},{name:1}).pretty()
 db.restaurent.find({cost:{$gt:600}},{name:1,cost:1}).pretty()
 
 db.restaurent.find({$and:[{cost:{$gt:300,$lt:500}}]},{name:1,cost:1}).pretty()
+
+db.loginuser.update(
+    {condition},
+    {update}
+)
+
+db.loginusers.update(
+    {"name" : "Aakash"},
+    {
+        $set:{
+           "phone":9878676873,
+           "city":"Delhi"
+        }
+    }
+)
+
+db.loginusers.update(
+    {"name" : "Aakash"},
+    {
+        $set:{
+           "__v":''
+        }
+    }
+)
+
+db.loginusers.update(
+    {"name" : "Aakash"},
+    {
+        $unset:{
+           __v:1
+        }
+    }
+)
+
+db.users.remove({name:"john"})
+db.users.remove({})
