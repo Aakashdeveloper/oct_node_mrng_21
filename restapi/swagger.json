@@ -1,0 +1,7 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "description": "This is User Rest Api",
+        "version":"__version__"
+    }
+}
