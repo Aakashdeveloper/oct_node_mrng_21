@@ -27,6 +27,9 @@ app.use(cors());
 app.get('/',(req,res) => {
     res.status(200).send("Health Ok")
 })
+app.get('/health',(req,res) => {
+    res.status(200).send("Health Ok")
+})
 
 //Read
 app.get('/users', (req,res) => {
@@ -67,6 +70,7 @@ app.get('/user/:id',(req,res) => {
     })
 })
 
+
 //Post
 app.post('/addUser',(req,res) => {
     console.log(req.body)
@@ -75,6 +79,7 @@ app.post('/addUser',(req,res) => {
         res.status(200).send('data added')
     })
 })
+
 
 // updateUser
 app.put('/updateUser',(req,res) => {

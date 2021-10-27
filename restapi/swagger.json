@@ -3,5 +3,165 @@
     "info": {
         "description": "This is User Rest Api",
         "version":"__version__"
+    },
+    "tags":[
+        {
+            "name":"PUBLIC ROUTE",
+            "description":"PUBLIC ROUTE"
+        }
+    ],
+    "paths":{
+        "/health":{
+            "summary":"Testing health of app",
+            "get":{
+                "description":"Testing Default Url",
+                "tags":["PUBLIC ROUTE"],
+                "responses":{
+                    "200":{
+                        "description":"Health Check Pass"
+                    }
+                }
+            }
+        },
+        "/users":{
+            "summary":"Getting All Users",
+            "get":{
+                "description":"Getting All Users",
+                "tags":["PUBLIC ROUTE"],
+                "parameters":[
+                    {
+                        "in":"query",
+                        "name":"role",
+                        "schema":{
+                            "type":"string"
+                        },
+                        "description":"Choose Role as Admin or User"
+                    },
+                    {
+                        "in":"query",
+                        "name":"city",
+                        "schema":{
+                            "type":"string"
+                        },
+                        "description":"Enter User City"
+                    }
+                ],
+                "responses":{
+                    "200":{
+                        "description":"User Info"
+                    }
+                }
+            }
+        },
+        "/user/{id}":{
+            "summary":"Getting Data of Particular User",
+            "get":{
+                "description":"Getting Data of Particular User",
+                "tags":["PUBLIC ROUTE"],
+                "parameters":[
+                    {
+                        "in":"path",
+                        "name":"id",
+                        "schema":{
+                            "type":"string"
+                        },
+                        "required": true,
+                        "description":"Enter User Id"
+                    }
+                ],
+                "responses":{
+                    "200":{
+                        "description":"User Details"
+                    }
+                }
+            }
+        },
+        "/addUser":{
+            "summary":"Add New User",
+            "post":{
+                "description":"Add New User",
+                "tags":["PUBLIC ROUTE"],
+                "requestBody":{
+                    "required":true,
+                    "content":{
+                        "application/json":{
+                            "schema":{
+                                "type": "object",
+                                "id":"string"
+                            },
+                            "example":{
+                                "name":"Aman",
+                                "city":"Delhi",
+                                "phone":4654745756,
+                                "role":"User",
+                                "isActive":true
+                            }
+                        }
+                    }
+                },
+                "responses":{
+                    "200":{
+                        "description":"User Details"
+                    }
+                }
+            }
+        },
+        "/updateUser":{
+            "summary":"Update User",
+            "put":{
+                "description":"Update User",
+                "tags":["PUBLIC ROUTE"],
+                "requestBody":{
+                    "required":true,
+                    "content":{
+                        "application/json":{
+                            "schema":{
+                                "type": "object",
+                                "id":"string"
+                            },
+                            "example":{
+                                "_id":"6178d7a92145c3b752ed13ac",
+                                "name":"Aman",
+                                "city":"Delhi",
+                                "phone":4654745756,
+                                "role":"User",
+                                "isActive":true
+                            }
+                        }
+                    }
+                },
+                "responses":{
+                    "200":{
+                        "description":"User Details"
+                    }
+                }
+            }
+        },
+        "/deleteUser":{
+            "summary":"Delete User",
+            "delete":{
+                "description":"Delete User",
+                "tags":["PUBLIC ROUTE"],
+                "requestBody":{
+                    "required":true,
+                    "content":{
+                        "application/json":{
+                            "schema":{
+                                "type": "object",
+                                "id":"string"
+                            },
+                            "example":{
+                                "_id":"6178d7a92145c3b752ed13ac"
+                            }
+                        }
+                    }
+                },
+                "responses":{
+                    "200":{
+                        "description":"User Deleted"
+                    }
+                }
+            }
+        }
     }
 }

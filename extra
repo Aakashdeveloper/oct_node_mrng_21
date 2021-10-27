@@ -21,10 +21,12 @@ ImageUpload
 Node-Es6(.babel)
 MongoDb Basic >27017  (local/cloud)
 Api with NodeJS(Rest)>1
-//////////////////////
 Swagger
+//////////////////////
 Testing
 Github
+TelegramChat
+
 DashBoard(Crud)
 --Deployment of app---
 Docker
@@ -38,6 +40,7 @@ NodeJs with postgres
 GraphQl API
 Paytm-Payment
 Email With Node(sendgird)(https://app.sendgrid.com/)
+TelegramChat
 Chatapp
 FIREBASE
 --------NOT---------
