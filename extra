@@ -22,10 +22,10 @@ Node-Es6(.babel)
 MongoDb Basic >27017  (local/cloud)
 Api with NodeJS(Rest)>1
 Swagger
+Github
 //////////////////////
 Testing
-Github
-TelegramChat
+
 
 DashBoard(Crud)
 --Deployment of app---
@@ -42,6 +42,7 @@ Paytm-Payment
 Email With Node(sendgird)(https://app.sendgrid.com/)
 TelegramChat
 Chatapp
+TelegramChat
 FIREBASE
 --------NOT---------
 React/Angular

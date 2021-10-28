@@ -1,0 +1,19 @@
+// first time form new folder //
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/nodeoct.git
+git push -u origin master
+
+//next all time from same folder
+git add .
+git commit -m "first commit"
+git push
+
+git status
+git pull
+
+git checkout -b branchname
+git checkout branchname
+
+git clone https://github.com/Aakashdeveloper/nodeoct.git
