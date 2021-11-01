@@ -23,16 +23,15 @@ MongoDb Basic >27017  (local/cloud)
 Api with NodeJS(Rest)>1
 Swagger
 Github
+DashBoard(Crud)
 //////////////////////
 Testing
-
-
-DashBoard(Crud)
 --Deployment of app---
 Docker
 Heroku
 Nginx
 Pm2
+
 Login/Logout(JWT)
 Oauth(with github)
 Oauth(with google)
