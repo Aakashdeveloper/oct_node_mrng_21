@@ -24,14 +24,13 @@ Api with NodeJS(Rest)>1
 Swagger
 Github
 DashBoard(Crud)
-//////////////////////
-Testing
 --Deployment of app---
 Docker
 Heroku
 Nginx
 Pm2
-
+//////////////////////
+Testing
 Login/Logout(JWT)
 Oauth(with github)
 Oauth(with google)
@@ -184,3 +183,12 @@ npm i @babel/core @babel/register @babel/preset-env
 
 npm i body-parser express mongodb morgan ejs dotenv cors swagger-ui-express
 npm i chai chai-http mocha
+
+Pm2
+npm i -g pm2
+pm2 start filename
+pm2 status
+pm2 stop filename
+
+
+docker build . -t imagename
