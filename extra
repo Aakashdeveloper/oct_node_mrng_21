@@ -29,8 +29,8 @@ Docker
 Heroku
 Nginx
 Pm2
-//////////////////////
 Testing
+//////////////////////
 Login/Logout(JWT)
 Oauth(with github)
 Oauth(with google)
@@ -192,3 +192,18 @@ pm2 stop filename
 
 
 docker build . -t imagename
+
+npm i chai chai-http mocha
+
+
+npm i body-parser express mongoose cors bcryptjs jsonwebtoken
+
+>>>
+register the user
+
+login user  > (with email and password)
+(it will return on token)
+
+GetUSer Info > with right token we will get user info
+
+Get all user
