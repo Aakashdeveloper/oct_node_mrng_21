@@ -31,14 +31,13 @@ Nginx
 Pm2
 Testing
 Login/Logout(JWT)
-//////////////////////
 Oauth(with github)
+//////////////////////
 Oauth(with google)
 NodeJs with postgres
 GraphQl API
 Paytm-Payment
 Email With Node(sendgird)(https://app.sendgrid.com/)
-TelegramChat
 Chatapp
 TelegramChat
 FIREBASE
@@ -212,4 +211,5 @@ Get all user
 https://docs.github.com/en/developers/apps/building-oauth-apps/authorizing-oauth-apps
 npm i cors ejs superagent request express
 
+http://www.passportjs.org/docs/google/
 npm i ejs express express-session passport passport-google-oauth
