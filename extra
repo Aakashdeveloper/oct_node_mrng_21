@@ -32,8 +32,8 @@ Pm2
 Testing
 Login/Logout(JWT)
 Oauth(with github)
-//////////////////////
 Oauth(with google)
+//////////////////////
 NodeJs with postgres
 GraphQl API
 Paytm-Payment
@@ -213,3 +213,9 @@ npm i cors ejs superagent request express
 
 http://www.passportjs.org/docs/google/
 npm i ejs express express-session passport passport-google-oauth
+
+Start manually
+pg_ctl -D /usr/local/var/postgres start
+
+Stop manually
+pg_ctl -D /usr/local/var/postgres stop
