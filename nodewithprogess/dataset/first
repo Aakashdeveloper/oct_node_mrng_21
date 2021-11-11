@@ -1,0 +1,72 @@
+Sql va NoSql
+
+OLTP
+(online transactional processing)
+Structured data
+
+> Create Database
+> create table
+> create columns
+
+>>Sql
+We can make any field as primary key
+
+primary key > unique column in the table
+Relational DB 
+
+SELECT * from users
+
+cREATE TABLE students(
+	id SERIAL PRIMARY KEY,
+	name TEXT Not Null
+)
+
+select * from students
+
+create table employee(
+	id SERIAL PRIMARY KEY,
+	name text not Null,
+	lastname varchar(30)
+	age Int,
+	phone int,
+	salaray real,
+	bonus decimal(3,2)
+)
+
+insert into employee(name,lastname,age,phone,salaray,bonus)
+VALUES ('John','Sharma',22,8979879,887887,10.34)
+insert into employee(name,lastname,age,phone,salaray,bonus)
+VALUES ('Joe','Rana',32,94442533,35323,6)
+
+
+insert into employee(name,lastname,age,phone,salaray,bonus) VALUES
+('Sarah','Joshi',28,94442533,546676,9),
+('Anthony','Singla',34,8786876,78776,7)
+
+CREATE TABLE products(
+	id serial primary key,
+	name varchar(30),
+	price Decimal(3,2),
+	coffee_origin varchar(50)
+)
+
+INSERT into products (name,price,coffee_origin) VALUES 
+('EXPRESSO',2.50,'BRAZIL'),
+('MOCCHIATO',3.40,'BRAZIL'),
+('Cappuccino',3.50,'Costa Rica'),
+('Latte',2.80,'Indonesia'),
+('Americano',3.50,'BRAZIL'),
+('FLAT WHITE',3.00,'Finland')
+
+
+select * from customers where gender='F'
+/* db.customers.find({gender:'F'}) */
+
+select * from customers where last_name='Bluth' and gender='F'
+
+/* db.customers.find({gender:'F'},{first_name:1,gender:1,_id:0}) */
+select first_name,gender from customers where gender='M'
+
+select first_name,gender from customers where first_name IN ('George','John','Paul')
+
+

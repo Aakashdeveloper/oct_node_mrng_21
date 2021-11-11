@@ -1,0 +1,143 @@
+///////
+create table orders(
+    id Serial primary key,
+    product_id Int,
+    customer_id Int,
+    order_time timestamp
+    FOREGIN KEY (product_id)  REFERENCES products(id),
+    FOREGIN KEY (customer_id) REFERENCES customers(id)
+)
+
+select * from customers
+select * from products
+
+SELECT * from orders;
+
+INSERT INTO orders (product_id,customer_id,order_time) 
+VALUES (7,1,'2021-02-23 08:02:11')
+
+DELETE from products where id = 7
+DELETE from orders where id = 22
+
+
+select * from customers
+select * from products
+
+SELECT * from orders;
+
+INSERT INTO orders (product_id,customer_id,order_time) 
+VALUES (7,1,'2021-02-23 08:02:11')
+
+DELETE from products where id = 7
+DELETE from orders where id = 22
+
+SELECT * from products order by price DESC
+
+SELECT name, price from products
+
+
+SELECT first_name form customers
+
+select first_name, gender from customers
+where first_name like 'C%'
+
+select first_name, gender from customers
+where first_name like '%a'
+
+select first_name, gender from customers
+where first_name like '%a%'
+
+
+select first_name, gender from customers
+where first_name like 'P%l'
+
+'%a%' > a anywhere in VALUES
+'%c' > end with c
+'c%' > start with c
+'P%l' > start with P end with l
+
+SELECT customer_id,count(product_id) from orders
+group by customer_id
+
+
+SELECT customer_id,sum(product_id) from orders
+group by customer_id
+
+>update > use for update data in table
+>alter > update table structure
+
+Alter table customers add column email varchar
+Alter table customers drop column email
+
+update customers 
+set email = 'dummyemail'
+
+Alter table customers 
+alter column email
+set not null
+
+insert into customers (first_name,last_name,gender,email)
+Values ('Aakash','Joshi','M','a@gmail.com')
+
+
+ALTER TABLE customers
+Rename column phone_number to phone
+
+Alter table customers add column email varchar
+Alter table customers drop column email
+
+update customers 
+set email = 'dummyemail'
+
+Alter table customers 
+alter column email
+set not null
+
+insert into customers (first_name,last_name,gender,email)
+Values ('Aakash','Joshi','M','a@gmail.com')
+
+
+update customers
+set email='bluth@gmail.com', 
+where last_name='Bluth'
+
+delete > delete particular record
+drop > delete data and table structure
+truncate> delete all data of table not structure
+
+Select * from customers
+
+update customers
+set email='bluth@gmail.com', 
+where last_name='Bluth'
+
+select * from orders
+delete from orders where id = 23
+
+insert into orders (product_id,customer_id) values(5,1)
+
+truncate table orders
+drop table orders
+
+create table orders(
+    id Serial primary key,
+    product_id Int,
+    customer_id Int,
+    order_time timestamp,
+    FOREIGN KEY (product_id)  REFERENCES products(id),
+    FOREIGN KEY (customer_id) REFERENCES customers(id)
+)
+
+
+/* give customer name and product id */
+SELECT c.first_name, o.product_id
+from customers c
+JOIN
+orders o
+/* match id from customer table with customer_id in order table*/
+on o.customer_id = c.id
+/* where product_id in order table is 1*/
+where o.product_id=1
+
+
+
