@@ -1,9 +1,9 @@
 db.products.insert([
     {
-        "_id": 1,
+        "id": 1,
         "product_name": "Girls top",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 2000,
         "Size": "Small",
         "Image": "https://i.ibb.co/fHj5Tgc/download.jpg",
@@ -11,21 +11,21 @@ db.products.insert([
         "Brand": "Gucci"
     },
     {
-        "_id": 2,
+        "id": 2,
         "product_name": "Girls top",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 1500,
         "Size": "Medium",
         "Image": "https://i.ibb.co/tsXyK5Y/images.jpg",
         "Color": "Blue",
-        "Brand": "Wests_ide"
+        "Brand": "Westside"
     },
     {
-        "_id": 3,
+        "id": 3,
         "product_name": "Girls top",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 2000,
         "Size": "Large",
         "Image": "https://i.ibb.co/NsVKKdd/images-1.jpg",
@@ -33,10 +33,10 @@ db.products.insert([
         "Brand": "H&M"
     },
     {
-        "_id": 4,
+        "id": 4,
         "product_name": "Girls top",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 500,
         "Size": "Medium",
         "Image": "https://i.ibb.co/5Fwh8ys/Blue.jpg",
@@ -44,10 +44,10 @@ db.products.insert([
         "Brand": "H&M"
     },
     {
-        "_id": 5,
+        "id": 5,
         "product_name": "Girls top",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 2500,
         "Size": "Large",
         "Image": "https://i.ibb.co/sbtyWMs/WHite.jpg",
@@ -55,11 +55,11 @@ db.products.insert([
         "Brand": "Gucci"
     },
     {
-        "_id": 6,
+        "id": 6,
         "display_name":"Green Crop Top",
         "product_name": "Girls top",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 1500,
         "Size": "Medium",
         "Image": "https://i.ibb.co/HGQ3bC0/A-Green.jpg",
@@ -67,21 +67,21 @@ db.products.insert([
         "Brand": "Hermes"
     },
     {
-        "_id": 7,
+        "id": 7,
         "product_name": "Girls top",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 2000,
         "Size": "small",
         "Image": "https://i.ibb.co/n7C1gqf/yellow.jpg",
         "Color": "Amber",
-        "Brand": "Ad_idas"
+        "Brand": "Adidas"
     },
     {
-        "_id": 8,
+        "id": 8,
         "product_name": "Girls top",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 1000,
         "Size": "Medium",
         "Image": "https://i.ibb.co/99vF9pr/Red.jpg",
@@ -89,10 +89,10 @@ db.products.insert([
         "Brand": "Prada"
     },
     {
-        "_id": 9,
+        "id": 9,
         "product_name": "Girls top",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 3000,
         "Size": "Medium",
         "Image": "https://i.ibb.co/9TLg98j/almond.jpg",
@@ -100,10 +100,10 @@ db.products.insert([
         "Brand": "Tom Ford"
     },
     {
-        "_id": 10,
+        "id": 10,
         "product_name": "Girls top",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 3000,
         "Size": "Medium",
         "Image": "https://i.ibb.co/r0mMPvk/grey.jpg",
@@ -111,10 +111,10 @@ db.products.insert([
         "Brand": "Burberry"
     },
     {
-        "_id": 11,
+        "id": 11,
         "product_name": "Jeans",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 2000,
         "Size": "XX",
         "Image": "https://i.ibb.co/zRKT2yV/download-1.jpg",
@@ -122,11 +122,11 @@ db.products.insert([
         "Brand": "Allen Solly"
     },
     {
-        "_id": 12,
+        "id": 12,
         "display_name":"Blue Demin",
         "product_category": "Jeans",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 3000,
         "Size": "XXl",
         "Image": "https://i.ibb.co/cCypD5v/mj6.jpg",
@@ -134,10 +134,10 @@ db.products.insert([
         "Brand": "Lee"
     },
     {
-        "_id": 13,
+        "id": 13,
         "product_name": "Jeans",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 3000,
         "Size": "Xl",
         "Image": "https://i.ibb.co/tCqWYP6/mj2.jpg",
@@ -145,10 +145,10 @@ db.products.insert([
         "Brand": "spykar"
     },
     {
-        "_id": 14,
+        "id": 14,
         "product_name": "Jeans",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 3000,
         "Size": "X",
         "Image": "https://i.ibb.co/Z6m393Y/download-2.jpg",
@@ -156,10 +156,10 @@ db.products.insert([
         "Brand": "Levi's"
     },
     {
-        "_id": 15,
+        "id": 15,
         "product_name": "Jeans",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 1000,
         "Size": "Xl",
         "Image": "https://i.ibb.co/pfpCs37/mj1.jpg",
@@ -167,10 +167,10 @@ db.products.insert([
         "Brand": "Wrangler"
     },
     {
-        "_id": 16,
+        "id": 16,
         "product_name": "Jeans",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 2000,
         "Size": "XX",
         "Image": "https://i.ibb.co/fqVV6Sn/mj3.jpg",
@@ -178,10 +178,10 @@ db.products.insert([
         "Brand": "Calvin Klein"
     },
     {
-        "_id": 17,
+        "id": 17,
         "product_name": "Jeans",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 3000,
         "Size": "XXL",
         "Image": "https://i.ibb.co/bXVW7j7/mj8.jpg",
@@ -189,10 +189,10 @@ db.products.insert([
         "Brand": "Levi's"
     },
     {
-        "_id": 18,
+        "id": 18,
         "product_name": "Jeans",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 3500,
         "Size": "XX",
         "Image": "https://i.ibb.co/z5WrjQ0/download-3.jpg",
@@ -200,10 +200,10 @@ db.products.insert([
         "Brand": "Lee"
     },
     {
-        "_id": 19,
+        "id": 19,
         "product_name": "Jeans",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 2500,
         "Size": "XX",
         "Image": "https://i.ibb.co/wLD9LyL/mj7.jpg",
@@ -211,10 +211,10 @@ db.products.insert([
         "Brand": "Wrangler"
     },
     {
-        "_id": 20,
+        "id": 20,
         "product_name": "Women's Shirt",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 2000,
         "Size": "L",
         "Image": "https://i.ibb.co/stDvKQm/sw4.jpg",
@@ -222,10 +222,10 @@ db.products.insert([
         "Brand": "Gucci"
     },
     {
-        "_id": 21,
+        "id": 21,
         "product_name": "Women's Shirt",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 2000,
         "Size": "M",
         "Image": "https://i.ibb.co/1fny1GN/sw2.jpg",
@@ -233,10 +233,10 @@ db.products.insert([
         "Brand": "Zara"
     },
     {
-        "_id": 22,
+        "id": 22,
         "product_name": "Women's Shirt",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 1000,
         "Size": "M",
         "Image": "https://i.ibb.co/4tBK2wr/sw3.jpg",
@@ -244,10 +244,10 @@ db.products.insert([
         "Brand": "Raymond"
     },
     {
-        "_id": 23,
+        "id": 23,
         "product_name": "Women's Shirt",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 1500,
         "Size": "M",
         "Image": "https://i.ibb.co/sj3c7kG/sw6.jpg",
@@ -255,10 +255,10 @@ db.products.insert([
         "Brand": "Peter England"
     },
     {
-        "_id": 24,
+        "id": 24,
         "product_name": "Women's Shirt",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 2000,
         "Size": "S",
         "Image": "https://i.ibb.co/TgtGYr9/sw7.jpg",
@@ -266,10 +266,10 @@ db.products.insert([
         "Brand": "Wills Lifestyle"
     },
     {
-        "_id": 25,
+        "id": 25,
         "product_name": "Women's Shirt",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 3500,
         "Size": "L",
         "Image": "https://i.ibb.co/vDrzk2k/sw10.jpg",
@@ -277,10 +277,10 @@ db.products.insert([
         "Brand": "Wills Lifestyle"
     },
     {
-        "_id": 26,
+        "id": 26,
         "product_name": "Men's Shirt",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 1500,
         "Size": "L",
         "Image": "https://i.ibb.co/xFQ7w0t/sm1.jpg" ,
@@ -288,10 +288,10 @@ db.products.insert([
         "Brand": "Van Heusen"
     },
     {
-        "_id": 27,
+        "id": 27,
         "product_name": "Men's Shirt",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 1000,
         "Size": "M",
         "Image": "https://i.ibb.co/P4NKcqv/sm2.jpg",
@@ -299,10 +299,10 @@ db.products.insert([
         "Brand": "Peter England"
     },
     {
-        "_id": 28,
+        "id": 28,
         "product_name": "Men's Shirt",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 200,
         "Size": "S",
         "Image": "https://i.ibb.co/S54x490/sm8.jpg" ,
@@ -310,10 +310,10 @@ db.products.insert([
         "Brand": "Raymond"
     },
     {
-        "_id": 29,
+        "id": 29,
         "product_name": "Men's Shirt",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 800,
         "Size": "M",
         "Image":"https://i.ibb.co/N6dtKNM/sm7.jpg" ,
@@ -321,10 +321,10 @@ db.products.insert([
         "Brand": "Park Avenue"
     },
      {
-        "_id": 30,
+        "id": 30,
         "product_name": "Men's Shirt",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 1200,
         "Size": "M",
         "Image": "https://i.ibb.co/7bJHyHy/sm4.jpg" ,
@@ -332,10 +332,10 @@ db.products.insert([
         "Brand": "Tomy Hilfiger"
     }, 
     {
-        "_id": 31,
+        "id": 31,
         "product_name": "Men's Shirt",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 1300,
         "Size": "M",
         "Image": "https://i.ibb.co/KDWj1HQ/sm5.jpg" ,
@@ -343,10 +343,10 @@ db.products.insert([
         "Brand": "Levi's"
     }, 
     {
-        "_id": 32,
+        "id": 32,
         "product_name": "Men's Shirt",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 2300,
         "Size": "L",
         "Image":"https://i.ibb.co/BLr2WBn/sm6.jpg" ,
@@ -354,10 +354,10 @@ db.products.insert([
         "Brand": "Parx"
     }, 
     {
-        "_id": 33,
+        "id": 33,
         "product_name": "Men's Shirt",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 1800,
         "Size": "S",
         "Image":  "https://i.ibb.co/02S5qLt/sm9.jpg" ,
@@ -365,10 +365,10 @@ db.products.insert([
         "Brand": "Ajio"
     },
     {
-        "_id": 33,
+        "id": 33,
         "product_name": "Men's Shirt",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 1800,
         "Size": "S",
         "Image":  "https://i.ibb.co/02S5qLt/sm9.jpg" ,
@@ -376,10 +376,10 @@ db.products.insert([
         "Brand": "Ajio"
     },
     {
-        "_id": 34,
+        "id": 34,
         "product_name": "Men's Shirt",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 1800,
         "Size": "S",
         "Image":  "https://i.ibb.co/02S5qLt/sm9.jpg" ,
@@ -388,10 +388,10 @@ db.products.insert([
     },
 
     {
-        "_id": 35,
+        "id": 35,
         "product_name": "Women's Jeans",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
          "Price": 1000,
         "Size": "M",
         "Image":"https://i.ibb.co/k0mKWfx/wj7.jpg" ,
@@ -400,10 +400,10 @@ db.products.insert([
     },   
 
     {
-        "_id": 36,
+        "id": 36,
         "product_name": "Women's Jeans",
          "category": "Fashion",
-         "category__id": 1,
+         "category_id": 1,
         "Price": 1600,
         "Size": "S",
         "Image": "https://i.ibb.co/bF0JH6S/w9.jpg" ,
@@ -411,10 +411,10 @@ db.products.insert([
         "Brand": "Levi's"
     },
     {
-        "_id": 37,
+        "id": 37,
         "product_name": "Women's Jeans",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 2000,
         "Size": "S",
         "Image":  "https://i.ibb.co/M7Sg9DP/wj6.jpg" ,
@@ -423,10 +423,10 @@ db.products.insert([
 
     },
     {
-        "_id": 39,
+        "id": 39,
         "product_name": "Women's Jeans",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 2500,
         "Size": "L",
         "Image": "https://i.ibb.co/yBK9S07/wj2.jpg" ,
@@ -436,10 +436,10 @@ db.products.insert([
     },
     
      {
-        "_id": 40,
+        "id": 40,
         "product_name": "Washing Machine",
         "category": "Electronics",
-        "category__id": 2,
+        "category_id": 2,
         "Price": 30000,
         "Image": "https://i.ibb.co/8NQ7RpM/w2.jpg",
         "Mode": "Semi-Automatic",
@@ -447,10 +447,10 @@ db.products.insert([
         "company": "LG"
     },
     {
-        "_id":41 ,
+        "id":41 ,
         "product_name": "Washing Machine",
         "category": "Electronics",
-        "category__id": 2,
+        "category_id": 2,
         "Price": 15000,
         "Image": "https://i.ibb.co/HdMwcHJ/w1.jpg",
         "Mode": "Automatic",
@@ -458,10 +458,10 @@ db.products.insert([
         "company": "Lloyd"
     },
     {
-        "_id":42 ,
+        "id":42 ,
         "product_name": "Washing Machine",
         "category": "Electronics",
-        "category__id": 2,
+        "category_id": 2,
         "Price": 15000,
         "Image":"https://i.ibb.co/NrHbwwD/w3.jpg" ,
         "Mode": "Automatic",
@@ -469,10 +469,10 @@ db.products.insert([
         "company": "Lloyd"
     },
     {
-        "_id": 43,
+        "id": 43,
         "product_name": "Refrigerator",
         "category": "Electronics",
-        "category__id": 2,
+        "category_id": 2,
         "Price": 50000,
         "Image": "https://i.ibb.co/Tm1GmYc/w4.jpg",
         "Style": "Double-Door",
@@ -480,10 +480,10 @@ db.products.insert([
         "company": "Samsung"
     },
     {
-        "_id": 44,
+        "id": 44,
         "product_name": "Refrigerator",
         "category": "Electronics",
-        "category__id": 2,
+        "category_id": 2,
         "Price": 25000,
         "Image":"https://i.ibb.co/zrLv8Bj/w5.jpg" ,
         "style": "Single Door",
@@ -491,20 +491,20 @@ db.products.insert([
         "company": "Whirlpool"
     },
     {
-        "_id": 45,
+        "id": 45,
         "product_name": "Iron",
         "category": "Electronics",
-        "category__id": 2,
+        "category_id": 2,
         "Price": 3000,
         "Image": "https://i.ibb.co/Tw9cXss/w6.jpg", 
         "Color": "Blue",
         "company": "Havells"
     },
     {
-        "_id": 46,
+        "id": 46,
         "product_name": "Iron",
         "category": "Electronics",
-        "category__id": 2,
+        "category_id": 2,
         "Price": 4000,
         "Image":"https://i.ibb.co/GHQjYvv/w7.jpg",
         "Color": "Black",
@@ -515,10 +515,10 @@ db.products.insert([
 
 db.products.insert([
     {
-        "_id": 34,
+        "id": 34,
         "product_name": "Men's Shirt",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 1800,
         "Size": "S",
         "Image":  "https://i.ibb.co/02S5qLt/sm9.jpg" ,
@@ -527,10 +527,10 @@ db.products.insert([
     },
 
     {
-        "_id": 35,
+        "id": 35,
         "product_name": "Women's Jeans",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
          "Price": 1000,
         "Size": "M",
         "Image":"https://i.ibb.co/k0mKWfx/wj7.jpg" ,
@@ -539,10 +539,10 @@ db.products.insert([
     },   
 
     {
-        "_id": 36,
+        "id": 36,
         "product_name": "Women's Jeans",
          "category": "Fashion",
-         "category__id": 1,
+         "category_id": 1,
         "Price": 1600,
         "Size": "S",
         "Image": "https://i.ibb.co/bF0JH6S/w9.jpg" ,
@@ -550,10 +550,10 @@ db.products.insert([
         "Brand": "Levi's"
     },
     {
-        "_id": 37,
+        "id": 37,
         "product_name": "Women's Jeans",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 2000,
         "Size": "S",
         "Image":  "https://i.ibb.co/M7Sg9DP/wj6.jpg" ,
@@ -562,10 +562,10 @@ db.products.insert([
 
     },
     {
-        "_id": 39,
+        "id": 39,
         "product_name": "Women's Jeans",
         "category": "Fashion",
-        "category__id": 1,
+        "category_id": 1,
         "Price": 2500,
         "Size": "L",
         "Image": "https://i.ibb.co/yBK9S07/wj2.jpg" ,
@@ -575,10 +575,10 @@ db.products.insert([
     },
     
      {
-        "_id": 40,
+        "id": 40,
         "product_name": "Washing Machine",
         "category": "Electronics",
-        "category__id": 2,
+        "category_id": 2,
         "Price": 30000,
         "Image": "https://i.ibb.co/8NQ7RpM/w2.jpg",
         "Mode": "Semi-Automatic",
@@ -586,10 +586,10 @@ db.products.insert([
         "company": "LG"
     },
     {
-        "_id":41 ,
+        "id":41 ,
         "product_name": "Washing Machine",
         "category": "Electronics",
-        "category__id": 2,
+        "category_id": 2,
         "Price": 15000,
         "Image": "https://i.ibb.co/HdMwcHJ/w1.jpg",
         "Mode": "Automatic",
@@ -597,10 +597,10 @@ db.products.insert([
         "company": "Lloyd"
     },
     {
-        "_id":42 ,
+        "id":42 ,
         "product_name": "Washing Machine",
         "category": "Electronics",
-        "category__id": 2,
+        "category_id": 2,
         "Price": 15000,
         "Image":"https://i.ibb.co/NrHbwwD/w3.jpg" ,
         "Mode": "Automatic",
@@ -608,10 +608,10 @@ db.products.insert([
         "company": "Lloyd"
     },
     {
-        "_id": 43,
+        "id": 43,
         "product_name": "Refrigerator",
         "category": "Electronics",
-        "category__id": 2,
+        "category_id": 2,
         "Price": 50000,
         "Image": "https://i.ibb.co/Tm1GmYc/w4.jpg",
         "Style": "Double-Door",
@@ -619,10 +619,10 @@ db.products.insert([
         "company": "Samsung"
     },
     {
-        "_id": 44,
+        "id": 44,
         "product_name": "Refrigerator",
         "category": "Electronics",
-        "category__id": 2,
+        "category_id": 2,
         "Price": 25000,
         "Image":"https://i.ibb.co/zrLv8Bj/w5.jpg" ,
         "style": "Single Door",
@@ -630,20 +630,20 @@ db.products.insert([
         "company": "Whirlpool"
     },
     {
-        "_id": 45,
+        "id": 45,
         "product_name": "Iron",
         "category": "Electronics",
-        "category__id": 2,
+        "category_id": 2,
         "Price": 3000,
         "Image": "https://i.ibb.co/Tw9cXss/w6.jpg", 
         "Color": "Blue",
         "company": "Havells"
     },
     {
-        "_id": 46,
+        "id": 46,
         "product_name": "Iron",
         "category": "Electronics",
-        "category__id": 2,
+        "category_id": 2,
         "Price": 4000,
         "Image":"https://i.ibb.co/GHQjYvv/w7.jpg",
         "Color": "Black",

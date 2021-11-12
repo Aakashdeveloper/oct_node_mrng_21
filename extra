@@ -34,8 +34,8 @@ Login/Logout(JWT)
 Oauth(with github)
 Oauth(with google)
 NodeJs with postgres
-//////////////////////
 GraphQl API
+//////////////////////
 Paytm-Payment
 Email With Node(sendgird)(https://app.sendgrid.com/)
 Chatapp
@@ -219,3 +219,28 @@ pg_ctl -D /usr/local/var/postgres start
 
 Stop manually
 pg_ctl -D /usr/local/var/postgres stop
+
+////Dummpy api/////
+Json-server
+
+npm i -g json-server
+json-server --watch db.json --port 9897
+
+
+npm i express-graphql graphql express axios
+
+mutation{
+  addProducts(
+    id:50,
+    product_name:"Test product",
+  ){
+    id
+  }
+}
+
+{
+  Products(id:1){
+    product_name,
+    Color
+  }
+}
