@@ -83,6 +83,10 @@ app.post('/addUser',(req,res) => {
 
 // updateUser
 app.put('/updateUser',(req,res) => {
+    /*var name = req.body.name
+    if(name.length<6){
+        res.status(500).send('data updated')
+    }*/
     db.collection(col_name).updateOne(
         {_id:mongo.ObjectId(req.body._id)},
         {

@@ -35,11 +35,12 @@ Oauth(with github)
 Oauth(with google)
 NodeJs with postgres
 GraphQl API
-//////////////////////
 Paytm-Payment
-Email With Node(sendgird)(https://app.sendgrid.com/)
+//////////////////////
 Chatapp
 TelegramChat
+
+Email With Node(sendgird)(https://app.sendgrid.com/)
 FIREBASE
 --------NOT---------
 React/Angular
@@ -244,3 +245,5 @@ mutation{
     Color
   }
 }
+
+https://dashboard.paytm.com/next/home
