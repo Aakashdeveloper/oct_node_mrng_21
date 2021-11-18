@@ -38,7 +38,6 @@ GraphQl API
 Paytm-Payment
 Chatapp
 TelegramChat
-//////////////////////
 Email With Node(sendgird)(https://app.sendgrid.com/)
 FIREBASE
 --------NOT---------
@@ -246,3 +245,12 @@ mutation{
 }
 
 https://dashboard.paytm.com/next/home
+
+npm i -g firebase-tools
+
+firebase login
+firebase init
+> firebae functions
+> javascript
+> all default option
+firebase deploy
